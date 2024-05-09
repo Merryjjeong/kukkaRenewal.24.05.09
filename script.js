@@ -173,3 +173,7 @@ function MobileMenuBox1__hide() {
 }
 
 MobileMenuBox1__init();
+
+document.querySelector("#kukkascent_btn").addEventListener("click", (e) => {
+  location.href = "./index_ks.html";
+});
