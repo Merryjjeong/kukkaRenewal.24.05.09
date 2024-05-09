@@ -58,3 +58,5 @@ $(window).resize(function () {
     fullpageActivete();
   }
 });
+
+$(window).trigger("resize");

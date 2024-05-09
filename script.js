@@ -93,22 +93,15 @@ const MainMarketSlider = new Swiper(".main-market-wrap .tab-content .swiper", {
   speed: 5000,
   loop: true,
   loopAdditionalSlides: 1,
-  slidesPerView: 2.3,
-  spaceBetween: 10,
+  slidesPerView: 2.5,
+  spaceBetween: 20,
   breakpoints: {
     1180: {
-      slidesPerView: 5,
-      spaceBetween: 20,
-    },
-
-    1024: {
-      slidesPerView: 4,
-      spaceBetween: 20,
+      slidesPerView: 4.5,
     },
 
     768: {
-      slidesPerView: 3,
-      spaceBetween: 20,
+      slidesPerView: 3.5,
     },
   },
 });
