@@ -387,7 +387,7 @@ a[class^="creative_line"] {
 
 /* 반응형 구현 */
 /* 너비 1024 이상 */
-@media (1024px < width) {
+@media (1180px < width) {
   .header-wrap-mb {
     display: none;
   }
@@ -401,7 +401,7 @@ a[class^="creative_line"] {
   }
 }
 /* 너비 768-1023 */
-@media (768px < width <= 1024px) {
+@media (768px < width <= 1180px) {
   .header-wrap-pc {
     display: none;
   }
