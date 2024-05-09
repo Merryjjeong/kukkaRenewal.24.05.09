@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>꾸까센트 리뉴얼 페이지</title>
+
+    <!-- 웹사이트가 모바일 장치에서 적절하게 보이고 작동하도록 조절 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- 테일윈드 불러오기 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- 스와이퍼 불러오기 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- fullpage 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
+
+    <!-- AOS 라이브러리 불러오기 -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script defer src="./script_ks.js"></script>
+
+    <link rel="stylesheet" href="./style_ks.css" />
+    <link rel="stylesheet" href="./font.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap header-wrap-pc">
+        <div class="header-top_bar">
+          <form class="search-box" action="" method="get">
+            <input type="text" />
+            <button>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+        <div class="header-main">
+          <nav class="header-menu">
+            <ul>
+              <li>
+                <a href="#section-1" data-hover="BRAND"> BRAND </a>
+              </li>
+              <li>
+                <a href="#section-2" data-hover="CREATIVE LINE">
+                  CREATIVE LINE
+                </a>
+              </li>
+            </ul>
+            <div class="logo">
+              <div>
+                <a href="#" class="logo-img-1 filp-box-front disabled">
+                  <img
+                    src="./image/꾸까 센트 로고.png"
+                    alt="꾸까센트로고 로고"
+                  />
+                </a>
+              </div>
+              <div>
+                <a href="#" class="logo-img-2 filp-box-front disabled">
+                  <img
+                    src="./image/꾸까 센트 로고 yellow.png"
+                    alt="꾸까센트로고 로고"
+                  />
+                </a>
+              </div>
+            </div>
+            <ul>
+              <li>
+                <a href="#section-3" data-hover="SUGAR CANDLE">
+                  SUGAR CANDLE
+                </a>
+              </li>
+              <li>
+                <a href="#section-4" data-hover="HOW TO USE"> HOW TO USE </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="header-wrap header-wrap-mb">
+        <div class="header-top_bar">
+          <a href="#">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </a>
+          <a href="#">
+            <i class="fa-regular fa-user"></i>
+          </a>
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </a>
+        </div>
+        <div class="header-main">
+          <div class="logo">
+            <div>
+              <a href="#" class="logo-img-1 filp-box-front disabled">
+                <img src="./image/꾸까 센트 로고.png" alt="꾸까센트로고 로고" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <a href="./index.html">
+      <div class="kukka-btn">
+        꾸까 보러가기
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </a>
+
+    <div class="kukkascent-main" id="fullpage">
+      <section data-anchor="section-1" class="section section-1 active">
+        <div class="main-brand-wrap">
+          <div class="main-brnad-text"></div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="main-brand-1">
+                  <div
+                    class="brand-text"
+                    data-aos="fade-right"
+                    data-aos-duration="400"
+                    data-aos-easing="linear"
+                  >
+                    <p>
+                      Nutures <br />
+                      & <br /><strong>Creativity</strong>
+                    </p>
+                    <span>
+                      KUKKA SCENT는 우리 내면의 창의성(Creative)를 지지합니다.
+                      <br />
+                      플라워 브랜드 KUKKA에게 ‘꽃’은 10년 동안 줄곧
+                      크리에이티브’ 그 자체였습니다.
+                      <div></div>
+                      <br />
+                      KUKKA는 꽃에서 ‘창의성’을 봤습니다. <br />
+                      우리가 꽃을 테마로 향을 만든다면 그 향은 ‘우리의 삶에
+                      크리에이티브를 불어넣을 향이 될 것’이라고 믿었습니다.
+                    </span>
+                  </div>
+                  <div class="brand-img">
+                    <img
+                      src="./image/꾸까 센트 메인 img1.png"
+                      alt="꾸까센트브랜드1"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="main-brand-2">
+                  <div class="brand-img">
+                    <img
+                      src="./image/꾸까 센트 메인 img2-1.png"
+                      alt="꾸까센트브랜드2"
+                    />
+                  </div>
+                  <div
+                    class="brand-text"
+                    data-aos="fade-right"
+                    data-aos-duration="400"
+                    data-aos-easing="linear"
+                  >
+                    <p>
+                      The deepest insight <br />
+                      into <br /><strong>Flowers</strong>
+                    </p>
+                    <span>
+                      꾸까 센트는 태초의 향, 꽃(Floral Moment)에 기인합니다.
+                      <br />
+                      플라워 브랜드 꾸까의 가치는 단 하나, ‘일상 속 꽃 문화’의
+                      창조입니다.
+                      <div></div>
+                      <br />
+                      꾸까는 꽃의 힘을 믿습니다. 식물이 개화를 위해 쏟은 엄청난
+                      에너지를 믿습니다. <br />
+                      그 힘이 우리 내면의 창의성을 이끌어 줍니다.
+                      <br />
+                      <strong
+                        >창의력에 미친 사람들을 위해, 꾸까는 태초의 향, 꽃을
+                        연구합니다.</strong
+                      >
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-anchor="section-2" class="section section-2">
+        <div class="main-creative_line-wrap creative_line-pc">
+          <a href="#" class="creative_line-1">
+            <div class="flip-outer">
+              <div class="flip-inner">
+                <div class="front">
+                  <img
+                    src="./image/크리에이티브1.jpg"
+                    alt="꾸까센트-플로랄심포니"
+                  />
+                </div>
+                <div class="back">
+                  <img
+                    src="./image/크리에이티브1-1.jpg"
+                    alt="꾸까센트-플로랄심포니"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              [SIGNATURE: Floral Symphony] <br />
+              [CREATIVE] 플로랄 심포니 슈가캔들 <br />
+              32,000원
+            </p>
+          </a>
+          <a href="#" class="creative_line-2">
+            <div class="flip-outer">
+              <div class="flip-inner">
+                <div class="front">
+                  <img
+                    src="./image/크리에이티브2.jpg"
+                    alt="꾸까센트-일랑일랑쿠키"
+                  />
+                </div>
+                <div class="back">
+                  <img
+                    src="./image/크리에이티브2-1.jpg"
+                    alt="꾸까센트-일랑일랑쿠키"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              [Ylang-Ylang Cookie] <br />
+              [ARTS] 일랑 일랑 쿠키 슈가캔들 <br />
+              32,000원
+            </p>
+          </a>
+          <a href="#" class="creative_line-3">
+            <div class="flip-outer">
+              <div class="flip-inner">
+                <div class="front">
+                  <img
+                    src="./image/크리에이티브3.jpg"
+                    alt="꾸까센트-시트론 쉐이크"
+                  />
+                </div>
+                <div class="back">
+                  <img
+                    src="./image/크리에이티브3-1.jpg"
+                    alt="꾸까센트-시트론 쉐이크"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              [Citron Shake] <br />
+              [ATHLETE] 시트론 쉐이크 슈가캔들 <br />
+              32,000원
+            </p>
+          </a>
+          <a href="#" class="creative_line-4">
+            <div class="flip-outer">
+              <div class="flip-inner">
+                <div class="front">
+                  <img
+                    src="./image/크리에이티브4.jpg"
+                    alt="꾸까센트-커피캔디"
+                  />
+                </div>
+                <div class="back">
+                  <img
+                    src="./image/크리에이티브4-1.jpg"
+                    alt="꾸까센트-커피캔디"
+                  />
+                </div>
+              </div>
+            </div>
+            <p>
+              [Coffee Candy]<br />
+              [ARTS] 커피 캔디 슈가캔들 <br />
+              32,000원
+            </p>
+          </a>
+        </div>
+        <div class="main-creative_line-wrap creative_line-mb">
+          <ul>
+            <li>
+              <a href="#" class="creative_line-1">
+                <img
+                  src="./image/크리에이티브1.jpg"
+                  alt="꾸까센트-플로랄심포니"
+                />
+                <p>
+                  [SIGNATURE: Floral Symphony] <br />
+                  [CREATIVE] 플로랄 심포니 슈가캔들 <br />
+                  32,000원
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="creative_line-2">
+                <img
+                  src="./image/크리에이티브2.jpg"
+                  alt="꾸까센트-일랑일랑쿠키"
+                />
+                <p>
+                  [Ylang-Ylang Cookie] <br />
+                  [ARTS] 일랑 일랑 쿠키 슈가캔들 <br />
+                  32,000원
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="creative_line-3">
+                <img
+                  src="./image/크리에이티브3.jpg"
+                  alt="꾸까센트-시트론 쉐이크"
+                />
+                <p>
+                  [Citron Shake] <br />
+                  [ATHLETE] 시트론 쉐이크 슈가캔들 <br />
+                  32,000원
+                </p>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="creative_line-4">
+                <img src="./image/크리에이티브4.jpg" alt="꾸까센트-커피캔디" />
+                <p>
+                  [Coffee Candy]<br />
+                  [ARTS] 커피 캔디 슈가캔들 <br />
+                  32,000원
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section data-anchor="section-3" class="section section-3">
+        <div class="main-sugar_candle-wrap">
+          <video width="100%" height="500px" muted autoplay loop>
+            <source
+              src="https://kukka-2-media-123.s3.amazonaws.com/media/contents/event/dfb03f2f-25aa-473f-9cce-220048bf41cd.mp4"
+            />
+          </video>
+          <div class="sugar_line-text-1">
+            <p>
+              <strong>향초를 더 안전하게 즐길 수 없을까?</strong>
+              <br />
+              꾸까 센트의 새로운 슈가 캔들이 향초 위의 향초로 불리는 이유입니다.
+              <br />
+              파우더 형태의 혁신적인 제형으로 실수로 뒤집어지거나 <br />
+              넘어져도 자동으로 불이 꺼집니다.
+            </p>
+          </div>
+          <div class="sugar_line-text-2">
+            <p>
+              * 슈가 캔들은 꾸까 센트(Kukka scent)의 상표권/특허 보호를
+              받습니다.
+              <br />
+              1. ‘슈가 캔들’은 꾸까 센트가 한국의 유일한 상표 사용권자입니다.
+              <br />
+              2. 기존 향초와 다른 혁신적인 ‘슈가 캔들’은 꾸까 센트의 조향사와
+              <br />
+              상품 개발자들의 독자적인 노력으로 출시하는상품으로 복제시 법적
+              책임을 묻습니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section data-anchor="section-4" class="section section-4">
+        <div class="main-how_to_use-wrap">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <video width="400px" height="500px" muted autoplay loop>
+                  <source
+                    src="https://kukka-2-media-123.s3.amazonaws.com/media/contents/event/385fb760-0c8f-4836-bec3-6b5a586d124f.mp4"
+                  />
+                </video>
+                <div class="how_to_use-text">
+                  <strong>HOW TO USE 'SUGAR CANDLE'</strong>
+                  <ul>
+                    <li>준비된 캔들 유리 컨테이너에 슈가 왁스를 부어주세요.</li>
+                    <li>왁스 중앙에 심지 0.7cm 남기고 꽂아주세요.</li>
+                    <li>슈가 캔들을 피우며 창의력에 집중하세요.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <video width="400px" height="500px" muted autoplay loop>
+                  <source
+                    src="https://kukka-2-media-123.s3.amazonaws.com/media/contents/event/065b7312-63be-4af6-806d-c865699206d4.mp4"
+                  />
+                </video>
+                <div class="how_to_use-text">
+                  <strong>HOW TO PUT OUT</strong>
+                  <ul>
+                    <li>
+                      촛불을 끌 때는 왁스 가루가 날리지 않도록 조심히 꺼주세요.
+                    </li>
+                    <li>
+                      녹은 왁스가 다 굳으면, 집게로 심지를 잡아 꺼내주세요.
+                    </li>
+                    <li>
+                      원하는 만큼 태운 후 남은 슈가 왁스는 틴케이스에 넣어
+                      보관하세요.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="section fp-auto-height">
+        <footer>
+          <div class="footer-wrap">
+            <div class="footer-header">
+              <div class="footer-logo">
+                <img
+                  src="./image/꾸까 센트 로고 white.png"
+                  alt="꾸까 로고 화이트"
+                />
+              </div>
+            </div>
+            <div class="footer-body">
+              <div>
+                <ul>
+                  <li>
+                    <a href="#"> 공지사항 </a>
+                  </li>
+                  <li>
+                    <a href="#"> 배송정책 </a>
+                  </li>
+                  <li>
+                    <a href="#"> 회원멤버십 </a>
+                  </li>
+                  <li>
+                    <a href="#"> 이용약관 </a>
+                  </li>
+                  <li>
+                    <a href="#"> 개인정보 처리 방침 </a>
+                  </li>
+                </ul>
+                <div class="footer-body-text">
+                  <p>
+                    고객센터 1661 - 1031 AM 10:00 - PM 18:00
+                    <br class="only-mb" />
+                    점심시간 13:00 - 14:00 (주말 & 공휴일 휴무)
+                  </p>
+                  <p>
+                    주식회사 꾸까 | 대표자 박춘화 | 사업자 등록번호 264-81-32594
+                    <br />
+                    사업자정보 확인 | 서울특별시 서초구 명달로 9 방배빌딩 지하
+                    1층 KUKKA | <br class="only-mb" />
+                    기업공시 | 통신판매신고번호 2018-서울서초-1692
+                  </p>
+                  <strong> © KUKKA, Inc. All rights reserved. </strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
