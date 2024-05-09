@@ -235,9 +235,16 @@ footer {
   display: block;
 }
 
+.main-market .swiper-wrapper {
+  widdth: 100%;
+  transition-timing-function: linear;
+}
+
 .main-market .swiper-slide {
   height: 100%;
   width: 400px;
+  display: flex;
+  justify-content: center;
 }
 
 .main-market .swiper-slide .slide-box {
